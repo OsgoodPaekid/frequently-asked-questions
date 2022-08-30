@@ -1,0 +1,20 @@
+*{
+    box-sizing: border-box;
+}
+
+.header-section{
+    text-transform: capitalize;
+}
+.question-itself{
+    text-transform: uppercase;
+    font-weight: lighter;
+}
+.answer-section{
+    font-weight: normal;S
+}
+#show-answer{
+    display: block;
+}
+#hide-answer{
+    display: none;
+}
