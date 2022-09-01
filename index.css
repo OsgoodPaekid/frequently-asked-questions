@@ -10,11 +10,18 @@
     font-weight: lighter;
 }
 .answer-section{
-    font-weight: normal;S
+    font-weight: normal;
+    display: none;
 }
-#show-answer{
+.show-answer{
     display: block;
 }
-#hide-answer{
+.hide-answer{
     display: none;
+}
+
+ul{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
 }
