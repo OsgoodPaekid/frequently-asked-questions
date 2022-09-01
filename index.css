@@ -8,6 +8,9 @@
 .question-itself{
     text-transform: uppercase;
     font-weight: lighter;
+    border-style: solid;
+    border-color: darkgrey;   
+    border-width: 8px;
 }
 .answer-section{
     font-weight: normal;
@@ -22,6 +25,11 @@
 
 ul{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     list-style: none;
+    margin-left: 20rem
+}
+
+@media screen  {
+    
 }
