@@ -10,13 +10,13 @@
     font-weight: lighter;
     border-style: solid;
     border-color: darkgrey;   
-    border-width: 8px;
+    border-width: thin 24px;
 }
 .answer-section{
     font-weight: normal;
     display: none;
 }
-.show-answer{
+.show-answer .answer-section{
     display: block;
 }
 .hide-answer{
@@ -30,6 +30,9 @@ ul{
     margin-left: 20rem
 }
 
-@media screen  {
-    
+@media screen and (max-width: 750px){
+    ul{
+        display: flex;
+        flex-direction: column;
+    }
 }
