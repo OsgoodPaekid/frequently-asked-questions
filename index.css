@@ -4,6 +4,9 @@
 
 .header-section{
     text-transform: capitalize;
+    text-align: center;
+    background-color: coral;
+    height: 4rem;
 }
 .question-itself{
     text-transform: uppercase;
@@ -16,7 +19,7 @@
     font-weight: normal;
     display: none;
 }
-.show-answer .answer-section{
+.show-answer .answer-section {
     display: block;
 }
 .hide-answer{
@@ -34,5 +37,12 @@ ul{
     ul{
         display: flex;
         flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 750px){
+    .header-section{
+        background-color: coral;
+        height: 6rem;
     }
 }
